@@ -1,9 +1,65 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.9">
   <diagram name="Page-1" id="Let4H1o7eYNp9Yz_bquF">
-    <mxGraphModel>
+    <mxGraphModel dx="2031" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="mBZfpdlXARiFJzPgMU2k-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mBZfpdlXARiFJzPgMU2k-1" target="mBZfpdlXARiFJzPgMU2k-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mBZfpdlXARiFJzPgMU2k-1" value="TA-GEM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mBZfpdlXARiFJzPgMU2k-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mBZfpdlXARiFJzPgMU2k-2" target="mBZfpdlXARiFJzPgMU2k-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mBZfpdlXARiFJzPgMU2k-2" value="Server Notification" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mBZfpdlXARiFJzPgMU2k-6" value="&lt;div&gt;DEV: https://nec-api-prod-kzckjq5goq-an.a.run.app&amp;nbsp; -&amp;gt; NodeJs&lt;/div&gt;&lt;div&gt;PROD: https://nec-api-staging-kzckjq5goq-an.a.run.app -&amp;gt; NodeJs&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;PROD: https://prod.huubap-api.com&lt;/div&gt;&lt;div&gt;DEV: https://test.huubap-api.com Fix Cứng trong code&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Mock Server/ Test thủ công&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="160" width="370" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mBZfpdlXARiFJzPgMU2k-7" value="Pub/Sub Firebase (HT)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mBZfpdlXARiFJzPgMU2k-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="mBZfpdlXARiFJzPgMU2k-9" target="mBZfpdlXARiFJzPgMU2k-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mBZfpdlXARiFJzPgMU2k-9" value="NodeJs (HT)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mBZfpdlXARiFJzPgMU2k-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mBZfpdlXARiFJzPgMU2k-11" target="mBZfpdlXARiFJzPgMU2k-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mBZfpdlXARiFJzPgMU2k-11" value="TA-HT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mBZfpdlXARiFJzPgMU2k-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="mBZfpdlXARiFJzPgMU2k-1" target="mBZfpdlXARiFJzPgMU2k-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="50" y="350" />
+              <mxPoint x="50" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mBZfpdlXARiFJzPgMU2k-12" value="Database" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mBZfpdlXARiFJzPgMU2k-16" value="Pub/Sub Firebase (GEM)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mBZfpdlXARiFJzPgMU2k-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" source="mBZfpdlXARiFJzPgMU2k-18" target="mBZfpdlXARiFJzPgMU2k-16" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mBZfpdlXARiFJzPgMU2k-18" value="NodeJs (GEM)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mBZfpdlXARiFJzPgMU2k-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mBZfpdlXARiFJzPgMU2k-19" target="mBZfpdlXARiFJzPgMU2k-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mBZfpdlXARiFJzPgMU2k-19" value="Server Notification" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
